@@ -11,49 +11,6 @@ import { useState, useEffect } from "react";
 
 import classes from "./App.module.css";
 
-// const wheater = [
-//   {
-//     id: "w1",
-//     day: "Friday",
-//     date: "March 1st, 1:00 pm",
-//     icon: <WbSunnyIcon fontSize="large" />,
-//     temperature: 35,
-//     precipitation: "clear sky",
-//   },
-//   {
-//     id: "w2",
-//     day: "Saturday",
-//     date: "March 2nd, 1:00 pm",
-//     icon: <CloudIcon fontSize="large" />,
-//     temperature: 36,
-//     precipitation: "light rain",
-//   },
-//   {
-//     id: "w3",
-//     day: "Sunday",
-//     date: "March 3nd, 1:00 pm",
-//     icon: <CloudIcon fontSize="large" />,
-//     temperature: 36,
-//     precipitation: "broken clouds",
-//   },
-//   {
-//     id: "w4",
-//     day: "Monday",
-//     date: "March 4th, 1:00 pm",
-//     icon: <WbSunnyIcon fontSize="large" />,
-//     temperature: 34,
-//     precipitation: "clear sky",
-//   },
-//   {
-//     id: "w5",
-//     day: "Tuesday",
-//     date: "March 5th, 1:00 pm",
-//     icon: <CloudIcon fontSize="large" />,
-//     temperature: 26,
-//     precipitation: "Scattened clouds",
-//   },
-// ];
-
 const App = () => {
   const [isTouced, setIsTouched] = useState(true);
   const [days, setDays] = useState([]);
